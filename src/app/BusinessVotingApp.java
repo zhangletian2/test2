@@ -17,7 +17,7 @@ public class BusinessVotingApp {
 	public static void main(String[] args) throws Exception {
 		VoteType vt = new VoteType("“支持”(1)|“反对”(-1)|“弃权”(0)");
 		List<Proposal> l = new ArrayList<>();
-		Proposal p = new Proposal("提案一号", Calendar.getInstance());
+		Proposal p = new Proposal("提案", Calendar.getInstance());
 		l.add(p);
 		Voter v1 = new Voter("董事长");
 		Voter v2 = new Voter("总经理");
